@@ -1,0 +1,14 @@
+# React TypeScript Shell Rules
+
+## Code Structure & Best Practices
+- Use functional components with TypeScript interfaces.
+- Enable strict mode in TypeScript for better type safety.
+- Use named exports for components.
+- Use Prettier for consistent code formatting.
+- Implement responsive design with Flexbox.
+- Use Radix UI components for accessibility.
+
+## Architecture & Design
+- Organize code into services for authentication, admin functions, etc.
+- Use environment variables for configuration.
+- Implement consistent error handling and logging.
