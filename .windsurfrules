@@ -12,3 +12,28 @@
 - Organize code into services for authentication, admin functions, etc.
 - Use environment variables for configuration.
 - Implement consistent error handling and logging.
+
+## Component Design
+- Prefer functional components over class components.
+- Use TypeScript interfaces for props and state typing.
+- Keep components small and focused (single responsibility).
+
+## Dependency Management
+- Pin dependency versions in package.json for reproducibility.
+- Avoid installing unnecessary dependencies; review usage periodically.
+- Use npm or yarn consistently across the project.
+
+## Error Handling
+- Always handle promise rejections in async operations.
+- Use error boundaries for critical UI sections.
+- Log errors to a monitoring service (e.g., Sentry) in production.
+
+## Accessibility (a11y)
+- Ensure all interactive elements have proper ARIA attributes.
+- Use semantic HTML where possible (e.g., <button> instead of <div>).
+- Test components with screen readers during development.
+
+## Build & Deployment
+- Minimize bundle size by analyzing webpack output.
+- Use environment variables for configuration (e.g., .env files).
+- Automate deployments with CI/CD pipelines.
